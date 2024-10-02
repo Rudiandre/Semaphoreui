@@ -1,7 +1,7 @@
 # Step 1: Define variables
-$tenantId = "your-tenant-id"
-$clientId = "your-client-id"
-$clientSecret = "your-client-secret"
+$tenantId = env-secret-id
+$clientId = env-client-id
+$clientSecret = env-tenant-id
 $graphResource = "https://graph.microsoft.com"
 
 # Step 2: Get access token
